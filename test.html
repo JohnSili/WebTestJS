@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="button">
+        <a href="#" id="open_pop_up1">test</a>
+    </div>
+    <div class="pop_up1" id="pop_up1">
+        <div class="popup_container">
+            <div class="pop_up_body1" id="pop_up_body">
+                <div class="test">
+                    <p>Выполните задания теста:</p>
+                    <p>4*12 + 7 = <input type="text" id="z_1"></p>
+                    <p>7-8*2 = <input type="text" id="z_2"></p>
+                    <p>34*2 + 17 = <input type="text" id="z_3"></p>
+                    <button onclick="proverit1();">Проверить</button>
+                    <div id="rezultat1"></div>
+                    <script src="check1.js"></script>
+                </div>
+                <div class="pop_up_close" id="pop_up_close1">×</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="button">
+        <a href="#" id="open_pop_up2">test</a>
+    </div>
+    <div class="pop_up2" id="pop_up2">
+        <div class="popup_container">
+            <div class="pop_up_body2" id="pop_up_body">
+                <div class="test">
+                    <p>Выполните задания теста:</p>
+                    <p>4*12 + 0 = <input type="text" id="z_4"></p>
+                    <p>7-8*2 = <input type="text" id="z_5"></p>
+                    <p>34*2 + 17 = <input type="text" id="z_6"></p>
+                    <button onclick="proverit2();">Проверить</button>
+                    <div id="rezultat2"></div>
+                    <script src="check2.js"></script>
+                </div>
+                <div class="pop_up_close" id="pop_up_close2">×</div>
+            </div>
+        </div>
+    </div>
+<script src="test.js"></script>
+</body>
+</html>
